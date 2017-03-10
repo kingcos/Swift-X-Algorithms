@@ -8,7 +8,7 @@
 
 import Foundation
 
-func selectionSort<T>(_ arr: inout Array<T>, _ isOrdered: (T, T) -> Bool) {
+func selectionSort<T>(_ arr: inout Array<T>, _ isNotOrdered: (T, T) -> Bool) {
     // 依次查找极值
     for i in 0..<arr.count {
         // 记录极值的下标
@@ -17,7 +17,7 @@ func selectionSort<T>(_ arr: inout Array<T>, _ isOrdered: (T, T) -> Bool) {
         // 查找后续极值下标
         for j in i + 1..<arr.count {
             // 更新极值下标
-            if isOrdered(arr[j], arr[index]) {
+            if isNotOrdered(arr[j], arr[index]) {
                 index = j
             }
         }
