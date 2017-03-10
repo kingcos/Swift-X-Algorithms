@@ -21,6 +21,7 @@
 - [排序](/Sort)
   - [选择排序](/Sort/01-SelectionSort)
   - [插入排序](/Sort/02-InsertionSort)
+  - [插入排序简单优化](/Sort/03-InsertionSort-Advanced)
 
 ## 何为 Swift X？
 

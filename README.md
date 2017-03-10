@@ -23,6 +23,7 @@ If my code did help you, would you please give me a Star 🌟? It will courage m
 - [Sort](/Sort)
   - [Selection Sort](/Sort/01-SelectionSort)
   - [Insertion Sort](/Sort/02-InsertionSort)
+  - [Insertion Sort Advanced](/Sort/03-InsertionSort-Advanced)
 
 ## Why Swift X?
 
