@@ -21,7 +21,7 @@ If my code did help you, would you please give me a Star 🌟? It will courage m
 ## Contents
 
 - [Sort](/Sort)
-  - [Selection Sort](/blob/master/Sblob/master/ort/01-SelectionSort)
+  - [Selection Sort](/Sort/01-SelectionSort)
 
 ## Why Swift X?
 

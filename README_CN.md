@@ -19,7 +19,7 @@
 ## 目录
 
 - [排序](/Sort)
-  - [选择排序](/blob/master/Sort/01-SelectionSort)
+  - [选择排序](/Sort/01-SelectionSort)
 
 ## 何为 Swift X？
 
