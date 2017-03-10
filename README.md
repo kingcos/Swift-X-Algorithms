@@ -22,12 +22,13 @@ If my code did help you, would you please give me a Star 🌟? It will courage m
 
 - [Sort](/Sort)
   - [Selection Sort](/Sort/01-SelectionSort)
+  - [Insertion Sort](/Sort/02-InsertionSort)
 
 ## Why Swift X?
 
 Because Swift is an updating programming language, it has a lot of new features and changes between different versions.
 
-Currently, Swift version is 3.0.1(Xcode 8.2.1) & 3.1(Xcode 8.3 beta). And it will be updated to 4.0 this year.
+Currently, Swift version is 3.0.1 (Xcode 8.2.1) & 3.1 (Xcode 8.3 beta). And it will be updated to 4.0 this year.
 
 So I try to use X to overview the version of Swift to adapt to the newest Xcode.
 
