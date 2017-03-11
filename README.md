@@ -14,6 +14,8 @@ If my code did help you, would you please give me a Star 🌟? It will courage m
 
 **No doubt that I would made some mistakes in it, if you find some bugs, please issue me. I am looking forward to discuss with you about the magic of Swift! Thank you!**
 
+- [Twitter](https://twitter.com/mmdadao)
+- [WeiBo (zh-CN)](http://weibo.com/375975847)
 - [Blog (zh-CN)](https://maimieng.com)
 - [JianShu (zh-CN)](http://www.jianshu.com/users/b88081164fe8)
 - [JueJin (zh-CN)](https://juejin.im/user/576a484d1532bc006046d078)
@@ -24,6 +26,7 @@ If my code did help you, would you please give me a Star 🌟? It will courage m
   - [Selection Sort](/Sort/01-SelectionSort)
   - [Insertion Sort](/Sort/02-InsertionSort)
   - [Insertion Sort Advanced](/Sort/03-InsertionSort-Advanced)
+  - - [Bubble Sort](/Sort/04-BubbleSort)
 
 ## Why Swift X?
 

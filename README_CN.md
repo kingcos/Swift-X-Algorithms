@@ -12,9 +12,11 @@
 
 **由于能力有限，虽在不断学习，但不免有错误，希望您能在 GitHub 中提出 Issue 或者评论告诉我，我都会细心研究，改正错误。谢谢！**
 
+- [微博](http://weibo.com/375975847)
 - [博客](https://maimieng.com)
 - [简书](http://www.jianshu.com/users/b88081164fe8)
 - [掘金](https://juejin.im/user/576a484d1532bc006046d078)
+- [Twitter](https://twitter.com/mmdadao)
 
 ## 目录
 
@@ -22,6 +24,7 @@
   - [选择排序](/Sort/01-SelectionSort)
   - [插入排序](/Sort/02-InsertionSort)
   - [插入排序简单优化](/Sort/03-InsertionSort-Advanced)
+  - [冒泡排序](/Sort/04-BubbleSort)
 
 ## 何为 Swift X？
 
