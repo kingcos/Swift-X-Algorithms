@@ -8,6 +8,7 @@ Algorithms implemented in Swift
 - [Insertion Sort](02-InsertionSort)
 - [Insertion Sort Advanced](03-InsertionSort-Advanced)
 - [Bubble Sort](04-BubbleSort)
+- [Shell Sort](05-ShellSort)
 
 ## License
 
