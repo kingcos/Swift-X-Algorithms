@@ -4,7 +4,7 @@
 //
 //  Created by 买明 on 10/03/2017.
 //  Copyright © 2017 买明. All rights reserved.
-//
+//  Powered by https://maimieng.com from https://github.com/kingcos/Swift-X-Algorithms
 
 import Foundation
 
