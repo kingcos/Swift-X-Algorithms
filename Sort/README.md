@@ -10,6 +10,7 @@ Algorithms implemented in Swift
 - [Bubble Sort](04-BubbleSort)
 - [Shell Sort](05-ShellSort)
 - [Merge Sort](06-MergeSort)
+- [Merge Sort Advanced](07-MergeSort-Advanced)
 
 ## License
 

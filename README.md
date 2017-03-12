@@ -29,6 +29,7 @@ If my code did help you, would you please give me a Star 🌟? It will courage m
   - [Bubble Sort](/Sort/04-BubbleSort)
   - [Shell Sort](/Sort/05-ShellSort)
   - [Merge Sort](/Sort/06-MergeSort)
+  - [Merge Sort Advanced](/Sort/07-MergeSort-Advanced)
 
 ## Why Swift X?
 

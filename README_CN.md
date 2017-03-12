@@ -23,10 +23,11 @@
 - [排序](/Sort)
   - [选择排序](/Sort/01-SelectionSort)
   - [插入排序](/Sort/02-InsertionSort)
-  - [插入排序简单优化](/Sort/03-InsertionSort-Advanced)
+  - [插入排序-优化](/Sort/03-InsertionSort-Advanced)
   - [冒泡排序](/Sort/04-BubbleSort)
   - [希尔排序](/Sort/05-ShellSort)
   - [归并排序](/Sort/06-MergeSort)
+  - [归并排序-优化](/Sort/07-MergeSort-Advanced)
 
 ## 何为 Swift X？
 
