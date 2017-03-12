@@ -42,7 +42,7 @@ struct TestHelper {
         let startTime = clock()
         sortFunction(&array, <)
         let endTime = clock()
-        if TestHelper.isSorted(array, <) {
+        if isSorted(array, <) {
             print("Duration: \(Double(endTime - startTime) / Double(CLOCKS_PER_SEC))s")
         }
     }
