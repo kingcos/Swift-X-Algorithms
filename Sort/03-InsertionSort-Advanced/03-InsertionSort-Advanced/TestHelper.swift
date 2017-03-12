@@ -1,6 +1,5 @@
 //
 //  TestHelper.swift
-//  01-SelectionSort
 //
 //  Created by 买明 on 10/03/2017.
 //  Copyright © 2017 买明. All rights reserved.
