@@ -26,6 +26,7 @@
   - [插入排序简单优化](/Sort/03-InsertionSort-Advanced)
   - [冒泡排序](/Sort/04-BubbleSort)
   - [希尔排序](/Sort/05-ShellSort)
+  - [归并排序](/Sort/06-MergeSort)
 
 ## 何为 Swift X？
 
