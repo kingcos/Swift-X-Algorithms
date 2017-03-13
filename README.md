@@ -30,6 +30,7 @@ If my code did help you, would you please give me a Star 🌟? It will courage m
   - [Shell Sort](/Sort/05-ShellSort)
   - [Merge Sort](/Sort/06-MergeSort)
   - [Merge Sort Advanced](/Sort/07-MergeSort-Advanced)
+  - [Merge Sort Bottom Up](/Sort/08-MergeSort-BottomUp)
 
 ## Why Swift X?
 
