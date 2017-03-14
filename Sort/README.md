@@ -12,6 +12,7 @@ Algorithms implemented in Swift
 - [Merge Sort](06-MergeSort)
 - [Merge Sort Advanced](07-MergeSort-Advanced)
 - [Merge Sort Bottom Up](08-MergeSort-BottomUp)
+- [Quick Sort](09-QuickSort)
 
 ## License
 

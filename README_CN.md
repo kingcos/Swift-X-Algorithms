@@ -29,6 +29,7 @@
   - [归并排序](/Sort/06-MergeSort)
   - [归并排序-优化](/Sort/07-MergeSort-Advanced)
   - [归并排序-自底向上](/Sort/08-MergeSort-BottomUp)
+  - [快速排序](/Sort/09-QuickSort)
 
 ## 何为 Swift X？
 

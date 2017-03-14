@@ -31,6 +31,7 @@ If my code did help you, would you please give me a Star 🌟? It will courage m
   - [Merge Sort](/Sort/06-MergeSort)
   - [Merge Sort Advanced](/Sort/07-MergeSort-Advanced)
   - [Merge Sort Bottom Up](/Sort/08-MergeSort-BottomUp)
+  - [Quick Sort](/Sort/09-QuickSort)
 
 ## Why Swift X?
 
