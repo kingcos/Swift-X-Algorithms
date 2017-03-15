@@ -13,7 +13,9 @@ func quickSortRandomized<T: Comparable>(_ arr: Array<T>, _ isNotOrdered: (T, T) 
         var arr = arr
         // 随机化索引 [l, r)
         let tmpIndex = Int(arc4random_uniform(UInt32(r - l))) + l
-        (arr[l], arr[tmpIndex]) = (arr[tmpIndex], arr[l])
+        if l != tmpIndex {
+            swap(&arr[l], &arr[tmpIndex])
+        }
         
         let tmp = arr[l]
         
