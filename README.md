@@ -33,6 +33,7 @@ If my code did help you, would you please give me a Star 🌟? It will courage m
   - [Merge Sort Bottom Up](/Sort/08-MergeSort-BottomUp)
   - [Quick Sort](/Sort/09-QuickSort)
   - [Quick Sort Randomized](/Sort/10-QuickSort-Randomized)
+  - [Quick Sort 2 Way](/Sort/11-QuickSort-2-Way)
 
 ## Why Swift X?
 
