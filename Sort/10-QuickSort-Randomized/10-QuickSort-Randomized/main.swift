@@ -11,11 +11,10 @@ import Foundation
 func quickSortRandomized<T: Comparable>(_ arr: Array<T>, _ isNotOrdered: (T, T) -> Bool) -> Array<T> {
     func partition<T>(_ arr: Array<T>, _ isNotOrdered: (T, T) -> Bool, _ l: Int, _ r: Int) -> (index: Int, array: Array<T>) {
         var arr = arr
-        // 随机化索引
+        // 随机化索引 [l, r)
         let tmpIndex = Int(arc4random_uniform(UInt32(r - l))) + l
-        if l != tmpIndex {
-            swap(&arr[l], &arr[tmpIndex])
-        }
+        (arr[l], arr[tmpIndex]) = (arr[tmpIndex], arr[l])
+        
         let tmp = arr[l]
         
         var j = l
