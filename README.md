@@ -34,6 +34,7 @@ If my code did help you, would you please give me a Star 🌟? It will courage m
   - [Quick Sort](/Sort/09-QuickSort)
   - [Quick Sort Randomized](/Sort/10-QuickSort-Randomized)
   - [Quick Sort 2 Way](/Sort/11-QuickSort-2-Way)
+  - [Quick Sort 3 Way](/Sort/12-QuickSort-3-Way)
 
 ## Why Swift X?
 
