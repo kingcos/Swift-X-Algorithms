@@ -34,6 +34,7 @@
   - [快速排序-两路](/Sort/11-QuickSort-2-Way)
   - [快速排序-三路](/Sort/12-QuickSort-3-Way)
   - [堆排序](/Sort/13-HeapSort)
+  - [堆排序-优化](/Sort/14-HeapSort-Advanced)
 
 - [数据结构](/DataStructure)
   - [堆](/DataStructure/01-Heap)

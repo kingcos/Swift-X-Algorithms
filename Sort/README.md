@@ -16,7 +16,8 @@ Algorithms implemented in Swift
 - [Quick Sort Randomized](10-QuickSort-Randomized)
 - [Quick Sort 2 Way](11-QuickSort-2-Way)
 - [Quick Sort 3 Way](12-QuickSort-3-Way)
-- [Heap Sort](/Sort/13-HeapSort)
+- [Heap Sort](13-HeapSort)
+- [Heap Sort Heapify](14-HeapSort-Heapify)
 
 ## License
 

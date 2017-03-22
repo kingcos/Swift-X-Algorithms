@@ -36,6 +36,7 @@ If my code did help you, would you please give me a Star 🌟? It will courage m
   - [Quick Sort 2 Way](/Sort/11-QuickSort-2-Way)
   - [Quick Sort 3 Way](/Sort/12-QuickSort-3-Way)
   - [Heap Sort](/Sort/13-HeapSort)
+  - [Heap Sort Heapify](/Sort/14-HeapSort-Heapify)
 
 - [Data Structure](/DataStructure)
   - [Heap](/DataStructure/01-Heap)
