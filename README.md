@@ -35,6 +35,10 @@ If my code did help you, would you please give me a Star 🌟? It will courage m
   - [Quick Sort Randomized](/Sort/10-QuickSort-Randomized)
   - [Quick Sort 2 Way](/Sort/11-QuickSort-2-Way)
   - [Quick Sort 3 Way](/Sort/12-QuickSort-3-Way)
+  - [Heap Sort](/Sort/13-HeapSort)
+
+- [Data Structure](/DataStructure)
+  - [Heap](/DataStructure/01-Heap)
 
 ## Why Swift X?
 
