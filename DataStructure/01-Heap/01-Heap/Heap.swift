@@ -32,13 +32,6 @@ public struct Heap<T>: CustomStringConvertible {
         self.elements = Array<T>()
     }
     
-    init(_ array: Array<T>, _ isOrdered: @escaping (T, T) -> Bool) {
-        self.capacity = array.count
-        self.isOrdered = isOrdered
-        self.elements = array
-        
-    }
-    
     private mutating func shiftUp(_ index: Int) {
         var index = index
         while index > 0 && isOrdered(elements[index], elements[(index - 1) / 2]) {
