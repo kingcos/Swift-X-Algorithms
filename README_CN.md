@@ -39,6 +39,9 @@
 - [数据结构](/DataStructure)
   - [堆](/DataStructure/01-Heap)
 
+- [Leetcode](/Leetcode)
+  - [344 Reverse-String](/Leetcode/344-Reverse-String)
+
 ## 何为 Swift X？
 
 Swift 是一门与时俱进又不太稳定的语言，每次更新都有新的功能以及一些改动。
