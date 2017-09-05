@@ -38,6 +38,9 @@ If my code did help you, would you please give me a Star 🌟? It will courage m
   - [Heap Sort](/Sort/13-HeapSort)
   - [Heap Sort Heapify](/Sort/14-HeapSort-Heapify)
 
+- [Search](/Search)
+  - [Binary Search Iteratively](01-BinarySearch-Iteratively)
+
 - [Data Structure](/DataStructure)
   - [Heap](/DataStructure/01-Heap)
 

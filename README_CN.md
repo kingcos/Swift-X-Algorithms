@@ -36,6 +36,9 @@
   - [堆排序](/Sort/13-HeapSort)
   - [堆排序-优化](/Sort/14-HeapSort-Advanced)
 
+- [查找](/Search)
+  - [二分查找-迭代](01-BinarySearch-Iteratively)
+
 - [数据结构](/DataStructure)
   - [堆](/DataStructure/01-Heap)
 
