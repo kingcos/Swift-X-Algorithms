@@ -39,7 +39,7 @@ If my code did help you, would you please give me a Star 🌟? It will courage m
   - [Heap Sort Heapify](/Sort/14-HeapSort-Heapify)
 
 - [Search](/Search)
-  - [Binary Search Iteratively](01-BinarySearch-Iteratively)
+  - [Binary Search Iteratively](/Search/01-BinarySearch-Iteratively)
 
 - [Data Structure](/DataStructure)
   - [Heap](/DataStructure/01-Heap)
