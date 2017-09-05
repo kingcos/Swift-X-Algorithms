@@ -40,6 +40,7 @@ If my code did help you, would you please give me a Star 🌟? It will courage m
 
 - [Search](/Search)
   - [Binary Search Iteratively](/Search/01-BinarySearch-Iteratively)
+  - [Binary Search Recursively](/Search/02-BinarySearch-Recursively)
 
 - [Data Structure](/DataStructure)
   - [Heap](/DataStructure/01-Heap)

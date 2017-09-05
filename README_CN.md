@@ -38,6 +38,7 @@
 
 - [查找](/Search)
   - [二分查找-迭代](/Search/01-BinarySearch-Iteratively)
+  - [二分查找-递归](/Search/02-BinarySearch-Recursively)
 
 - [数据结构](/DataStructure)
   - [堆](/DataStructure/01-Heap)
