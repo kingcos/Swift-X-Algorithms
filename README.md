@@ -1,6 +1,6 @@
 # Swift-X-Algorithms
 
-Algorithms &amp; Data Structures implemented in Swift X.
+Algorithms &amp; Data Structures implemented in Swift X (X = 4.2).
 
 [中文版 README](README_CN.md)
 
@@ -52,9 +52,9 @@ If my code did help you, would you please give me a Star 🌟? It will courage m
 
 Because Swift is an updating programming language, it has a lot of new features and changes between different versions.
 
-Currently, Swift versions are 3.0.1 (Xcode 8.2.1) & 3.1 (Xcode 8.3 beta). And it will be updated to 4.0 this year.
+Currently, the version of Swift is 4.2 (Xcode 10).
 
-So I try to use X to overview the version of Swift to adapt to the newest Xcode.
+So I try to use X to represent the newest version of Swift and adapt to the newest Xcode.
 
 ## Reference
 
