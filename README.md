@@ -22,7 +22,7 @@ If my code did help you, would you please give me a Star 🌟? It will courage m
 
 ## Contents
 
-- [Sort](/Sort)
+- **Sort**
   - [Selection Sort](/Sort/01-SelectionSort)
   - [Insertion Sort](/Sort/02-InsertionSort)
   - [Insertion Sort Advanced](/Sort/03-InsertionSort-Advanced)
@@ -38,21 +38,21 @@ If my code did help you, would you please give me a Star 🌟? It will courage m
   - [Heap Sort](/Sort/13-HeapSort)
   - [Heap Sort Heapify](/Sort/14-HeapSort-Heapify)
 
-- [Search](/Search)
+- **Search**
   - [Binary Search Iteratively](/Search/01-BinarySearch-Iteratively)
   - [Binary Search Recursively](/Search/02-BinarySearch-Recursively)
 
-- [Data Structure](/DataStructure)
+- **Data Structure**
   - [Heap](/DataStructure/01-Heap)
 
-- [Leetcode](/Leetcode)
+- **Leetcode**
   - [344 Reverse-String](/Leetcode/344-Reverse-String)
 
 ## Why Swift X?
 
-Because Swift is an updating programming language, it has a lot of new features and changes between different versions.
+Swift is a new-born programming language which update continuously. It has a lot of new features and grammar changes between different versions before its ABI is stable.
 
-Currently, the version of Swift is 4.2 (Xcode 10).
+Currently, the newest version of Swift is 4.2 (with Xcode 10).
 
 So I try to use X to represent the newest version of Swift and adapt to the newest Xcode.
 
