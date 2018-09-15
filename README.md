@@ -63,6 +63,11 @@ So I try to use X to represent the newest version of Swift and adapt to the newe
 - [Algorithms (4th Edition)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/ref=sr_1_2?ie=UTF8&qid=1481002530&sr=8-2&keywords=algorithms)
 - [raywenderlich/swift-algorithm-club](https://github.com/raywenderlich/swift-algorithm-club)
 
+## Revision History
+
+- [Swift 3.x](https://github.com/kingcos/Swift-X-Algorithms/tree/swift_3.x)
+- [Swift 4.2](https://github.com/kingcos/Swift-X-Algorithms/tree/swift_4.2)
+
 ## LICENSE
 
 MIT

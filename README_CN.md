@@ -61,6 +61,12 @@ Swift 是一门与时俱进的语言，在 ABI 稳定前，每次更新都会加
 - [Algorithms (4th Edition)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/ref=sr_1_2?ie=UTF8&qid=1481002530&sr=8-2&keywords=algorithms)
 - [raywenderlich/swift-algorithm-club](https://github.com/raywenderlich/swift-algorithm-club)
 
+
+## 修订历史
+
+- [Swift 3.x](https://github.com/kingcos/Swift-X-Algorithms/tree/swift_3.x)
+- [Swift 4.2](https://github.com/kingcos/Swift-X-Algorithms/tree/swift_4.2)
+
 ## 许可
 
 MIT
