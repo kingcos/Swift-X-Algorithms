@@ -11,8 +11,22 @@ import Foundation
 struct TestHelper {
     typealias SortFuncType = (inout Array<Int>, (Int, Int) -> Bool) -> ()
     
+    // 检查排序算法运行是否成功及耗时
+    static func checkSortAlgorithm(_ sortFunction: (SortFuncType),
+                                   _ arraySize: Int = 1000) {
+        var array = generateRandomArray(arraySize)
+        let startTime = clock()
+        sortFunction(&array, <)
+        let endTime = clock()
+        if isSorted(array, <) {
+            print("Duration: \(Double(endTime - startTime) / Double(CLOCKS_PER_SEC))s")
+        }
+    }
+    
+    // MARK: Private funcs
+    
     // 返回随机整型数组
-    static func generateRandomArray(_ size: Int) -> Array<Int> {
+    private static func generateRandomArray(_ size: Int) -> Array<Int> {
         var resultArray = Array<Int>()
         
         for _ in 0..<size {
@@ -22,7 +36,8 @@ struct TestHelper {
     }
     
     // 判断数组是否有序
-    static func isSorted<T>(_ array: [T], _ isOrdered: (T, T) -> Bool) -> Bool {
+    private static func isSorted<T>(_ array: [T],
+                                    _ isOrdered: (T, T) -> Bool) -> Bool {
         guard array.count > 1 else {
             return true
         }
@@ -34,16 +49,5 @@ struct TestHelper {
         }
         
         return true
-    }
-    
-    // 检查排序算法运行是否成功及耗时
-    static func checkSortAlgorithm(_ sortFunction: (SortFuncType), _ arraySize: Int = 1000) {
-        var array = generateRandomArray(arraySize)
-        let startTime = clock()
-        sortFunction(&array, <)
-        let endTime = clock()
-        if isSorted(array, <) {
-            print("Duration: \(Double(endTime - startTime) / Double(CLOCKS_PER_SEC))s")
-        }
     }
 }
