@@ -20,6 +20,7 @@ func selectionSort<T>(_ arr: inout Array<T>,
             }
         }
         
+        // 交换位置
         arr.swapAt(i, index)
     }
 }
