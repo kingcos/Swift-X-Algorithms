@@ -5,7 +5,8 @@ Algorithms implemented in Swift
 ## Code
 
 ```Swift
-func binarySearchIteratively<T: Comparable>(_ target: T, in arr: [T]) -> Int? {
+func binarySearchIteratively<T: Comparable>(_ target: T,
+                                            in arr: [T]) -> Int? {
     // 下标下限
     var lowerBound = 0
     // 下标上限
