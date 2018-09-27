@@ -22,7 +22,8 @@ struct TestHelper {
     }
     
     // 判断数组是否有序
-    static func isSorted<T>(_ array: [T], _ isOrdered: (T, T) -> Bool) -> Bool {
+    static func isSorted<T>(_ array: [T],
+                            _ isOrdered: (T, T) -> Bool) -> Bool {
         guard array.count > 1 else {
             return true
         }
@@ -37,7 +38,8 @@ struct TestHelper {
     }
     
     // 检查排序算法运行是否成功及耗时
-    static func checkSortAlgorithm(_ sortFunction: (SortFuncType), _ arraySize: Int = 1000) {
+    static func checkSortAlgorithm(_ sortFunction: (SortFuncType),
+                                   _ arraySize: Int = 1000) {
         var array = generateRandomArray(arraySize)
         let startTime = clock()
         sortFunction(&array, <)

@@ -8,7 +8,8 @@
 
 import Foundation
 
-func selectionSort<T>(_ arr: inout Array<T>, _ isNotOrdered: (T, T) -> Bool) {
+func selectionSort<T>(_ arr: inout Array<T>,
+                      _ isNotOrdered: (T, T) -> Bool) {
     // 依次查找极值
     for i in 0..<arr.count {
         // 记录极值的下标
@@ -22,10 +23,8 @@ func selectionSort<T>(_ arr: inout Array<T>, _ isNotOrdered: (T, T) -> Bool) {
             }
         }
         
-        // Swift 中的 swap 不支持自身交换
-        if i != index {
-            swap(&arr[i], &arr[index])
-        }
+        // 交换位置
+        arr.swapAt(i, index)
     }
 }
 
