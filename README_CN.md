@@ -45,6 +45,7 @@
   - [001 Two Sum](/LeetCode/001-Two-Sum)
   - [007 Reverse Integer](/LeetCode/007-Reverse-Integer)
   - [009 Palindrome Number](/LeetCode/009-Palindrome-Number)
+  - [014 Longest Common Prefix](/LeetCode/014-Longest-Common-Prefix)
 
 ## 何为 Swift X？
 
