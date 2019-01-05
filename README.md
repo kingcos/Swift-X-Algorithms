@@ -16,9 +16,6 @@ If my code did help you, would you please give me a Star 🌟? It will courage m
 
 - [Twitter](https://twitter.com/mmdadao)
 - [WeiBo (zh-CN)](http://weibo.com/375975847)
-- [Blog (zh-CN)](https://maimieng.com)
-- [JianShu (zh-CN)](http://www.jianshu.com/users/b88081164fe8)
-- [JueJin (zh-CN)](https://juejin.im/user/576a484d1532bc006046d078)
 
 ## Contents
 
