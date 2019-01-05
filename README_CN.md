@@ -41,13 +41,10 @@
 - **数据结构**
   - [堆](/DataStructure/01-Heap)
 
-- **Leetcode**
-  - [001-Two-Sum](/LeetCode/001-Two-Sum)
-  - [007-Reverse-Integer](/LeetCode/007-Reverse-Integer)
-  - [009-Palindrome-Number](/LeetCode/009-Palindrome-Number)
-  - [013-Roman-to-Integer](/LeetCode/013-Roman-to-Integer)
-  - [014-Longest-Common-Prefix](/LeetCode/014-Longest-Common-Prefix)
-  - [344-Reverse-String](/LeetCode/344-Reverse-String)
+- **LeetCode**
+  - [001 Two Sum](/LeetCode/001-Two-Sum)
+  - [007 Reverse Integer](/LeetCode/007-Reverse-Integer)
+  - [009 Palindrome Number](/LeetCode/009-Palindrome-Number)
 
 ## 何为 Swift X？
 

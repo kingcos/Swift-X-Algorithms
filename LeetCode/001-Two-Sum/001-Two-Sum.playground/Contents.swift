@@ -1,14 +1,5 @@
-# Swift-X-Algorithms
+import UIKit
 
-> Algorithms implemented in Swift/Go/Python.
-
-## 001 Two Sum
-
-### Solutions
-
-#### Swift
-
-```Swift
 class Solution_1 {
     // 688 ms
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
@@ -40,29 +31,3 @@ class Solution_2 {
         return []
     }
 }
-```
-
-#### Go
-
-```go
-func twoSum(nums []int, target int) []int {
-    
-}
-```
-
-#### Python
-
-```python
-class Solution:
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        
-```
-
-## License
-
-- MIT
