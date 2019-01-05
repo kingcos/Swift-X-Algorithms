@@ -70,4 +70,4 @@ So I try to use X to represent the newest version of Swift and adapt to the newe
 
 ## LICENSE
 
-MIT
+- MIT
