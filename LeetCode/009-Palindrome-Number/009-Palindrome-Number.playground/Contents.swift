@@ -1,14 +1,4 @@
-# Swift-X-Algorithms
-
-Algorithms implemented in Swift/Go/Python.
-
-## 009 Palindrome Number
-
-### Solutions
-
-#### Swift
-
-```Swift
+import UIKit
 
 class Solution_1 {
     // 80 ms
@@ -59,28 +49,3 @@ class Solution_3 {
         return result == x || result / 10 == x
     }
 }
-```
-
-#### Go
-
-```go
-func isPalindrome(x int) bool {
-    
-}
-```
-
-#### Python
-
-```python
-class Solution:
-    def isPalindrome(self, x):
-        """
-        :type x: int
-        :rtype: bool
-        """
-        
-```
-
-## License
-
-- MIT
