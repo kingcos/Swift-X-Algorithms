@@ -46,6 +46,7 @@
   - [007 Reverse Integer](/LeetCode/007-Reverse-Integer)
   - [009 Palindrome Number](/LeetCode/009-Palindrome-Number)
   - [014 Longest Common Prefix](/LeetCode/014-Longest-Common-Prefix)
+  - [020 Valid Parentheses](/LeetCode/020-Valid-Parentheses)
 
 ## 何为 Swift X？
 
