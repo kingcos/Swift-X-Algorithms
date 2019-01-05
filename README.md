@@ -16,6 +16,7 @@ If my code did help you, would you please give me a Star 🌟? It will courage m
 
 - [Twitter](https://twitter.com/mmdadao)
 - [WeiBo (zh-CN)](http://weibo.com/375975847)
+- [Perspective (Blog)](https://github.com/kingcos/Perspective)
 
 ## Contents
 
@@ -42,8 +43,10 @@ If my code did help you, would you please give me a Star 🌟? It will courage m
 - **Data Structure**
   - [Heap](/DataStructure/01-Heap)
 
-- **Leetcode**
-  - [344 Reverse-String](/Leetcode/344-Reverse-String)
+- **LeetCode**
+  - [001 Two Sum](/LeetCode/001-Two-Sum)
+  - [007 Reverse Integer](/LeetCode/007-Reverse-Integer)
+  - [009 Palindrome Number](/LeetCode/009-Palindrome-Number)
 
 ## Why Swift X?
 
