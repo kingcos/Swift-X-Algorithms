@@ -1,14 +1,7 @@
-# Swift-X-Algorithms
+//: Playground - noun: a place where people can play
 
-Algorithms implemented in Swift/Go/Python.
+import UIKit
 
-## 007 Reverse Integer
-
-### Solutions
-
-#### Swift
-
-```Swift
 class Solution {
     // 12 ms
     func reverse(_ x: Int) -> Int {
@@ -26,28 +19,3 @@ class Solution {
         return result
     }
 }
-```
-
-#### Go
-
-```go
-func reverse(x int) int {
-    
-}
-```
-
-#### Python
-
-```python
-class Solution:
-    def reverse(self, x):
-        """
-        :type x: int
-        :rtype: int
-        """
-        
-```
-
-## License
-
-- MIT
