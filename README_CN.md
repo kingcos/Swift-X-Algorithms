@@ -70,7 +70,7 @@ Swift 是一门与时俱进的语言，在 ABI 稳定前，每次更新都会加
 ## 修订历史
 
 - [Swift 3.x](https://github.com/kingcos/Swift-X-Algorithms/tree/swift_3.x)
-- [Swift 4.2](https://github.com/kingcos/Swift-X-Algorithms/tree/swift_4.2)
+- [Swift 4.2](https://github.com/kingcos/Swift-X-Algorithms/tree/master)
 
 ## 许可
 

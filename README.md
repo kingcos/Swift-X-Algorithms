@@ -66,7 +66,7 @@ So I try to use X to represent the newest version of Swift and adapt to the newe
 ## Revision History
 
 - [Swift 3.x](https://github.com/kingcos/Swift-X-Algorithms/tree/swift_3.x)
-- [Swift 4.2](https://github.com/kingcos/Swift-X-Algorithms/tree/swift_4.2)
+- [Swift 4.2](https://github.com/kingcos/Swift-X-Algorithms/tree/master)
 
 ## LICENSE
 
