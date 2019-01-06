@@ -51,6 +51,7 @@
   - [026 Remove Duplicates from Sorted Array](/LeetCode/026-Remove-Duplicates-from-Sorted-Array)
   - [027 Remove Element](/LeetCode/027-Remove-Element)
   - [028 Implement strStr()](/LeetCode/028-Implement-strStr())
+  - [035 Search Insert Position](/LeetCode/035-Search-Insert-Position)
 
 ## 何为 Swift X？
 
