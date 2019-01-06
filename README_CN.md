@@ -48,6 +48,7 @@
   - [014 Longest Common Prefix](/LeetCode/014-Longest-Common-Prefix)
   - [020 Valid Parentheses](/LeetCode/020-Valid-Parentheses)
   - [021 Merge Two Sorted Lists](/LeetCode/021-Merge-Two-Sorted-Lists)
+  - [026 Remove Duplicates from Sorted Array](/LeetCode/026-Remove-Duplicates-from-Sorted-Array)
 
 ## 何为 Swift X？
 
