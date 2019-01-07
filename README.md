@@ -56,6 +56,7 @@ If my code did help you, would you please give me a Star 🌟? It will courage m
   - [035 Search Insert Position](/LeetCode/035-Search-Insert-Position)
   - [038 Count and Say](/LeetCode/038-Count-and-Say)
   - [053 Maximum Subarray](/LeetCode/053-Maximum-Subarray)
+  - [058 Length of Last Word](/LeetCode/058-Length-of-Last-Word)
 
 ## Why Swift X?
 
