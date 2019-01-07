@@ -52,6 +52,7 @@
   - [027 Remove Element](/LeetCode/027-Remove-Element)
   - [028 Implement strStr()](/LeetCode/028-Implement-strStr())
   - [035 Search Insert Position](/LeetCode/035-Search-Insert-Position)
+  - [038 Count and Say](/LeetCode/038-Count-and-Say)
 
 ## 何为 Swift X？
 
