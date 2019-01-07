@@ -53,6 +53,7 @@
   - [028 Implement strStr()](/LeetCode/028-Implement-strStr())
   - [035 Search Insert Position](/LeetCode/035-Search-Insert-Position)
   - [038 Count and Say](/LeetCode/038-Count-and-Say)
+  - [053 Maximum Subarray](/LeetCode/053-Maximum-Subarray)
 
 ## 何为 Swift X？
 
