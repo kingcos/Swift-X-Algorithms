@@ -56,6 +56,7 @@
   - [053 Maximum Subarray](/LeetCode/053-Maximum-Subarray)
   - [058 Length of Last Word](/LeetCode/058-Length-of-Last-Word)
   - [066 Plus One](/LeetCode/066-Plus-One)
+  - [067 Add Binary](/LeetCode/067-Add-Binary)
 
 ## 何为 Swift X？
 

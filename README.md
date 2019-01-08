@@ -58,6 +58,7 @@ If my code did help you, would you please give me a Star 🌟? It will courage m
   - [053 Maximum Subarray](/LeetCode/053-Maximum-Subarray)
   - [058 Length of Last Word](/LeetCode/058-Length-of-Last-Word)
   - [066 Plus One](/LeetCode/066-Plus-One)
+  - [067 Add Binary](/LeetCode/067-Add-Binary)
 
 ## Why Swift X?
 
