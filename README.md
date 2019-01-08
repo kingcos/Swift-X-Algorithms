@@ -59,6 +59,7 @@ If my code did help you, would you please give me a Star 🌟? It will courage m
   - [058 Length of Last Word](/LeetCode/058-Length-of-Last-Word)
   - [066 Plus One](/LeetCode/066-Plus-One)
   - [067 Add Binary](/LeetCode/067-Add-Binary)
+  - [069 Sqrt(x)](/LeetCode/069-Sqrt(x))
 
 ## Why Swift X?
 
