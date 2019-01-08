@@ -55,6 +55,7 @@
   - [038 Count and Say](/LeetCode/038-Count-and-Say)
   - [053 Maximum Subarray](/LeetCode/053-Maximum-Subarray)
   - [058 Length of Last Word](/LeetCode/058-Length-of-Last-Word)
+  - [066 Plus One](/LeetCode/066-Plus-One)
 
 ## 何为 Swift X？
 
