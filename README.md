@@ -60,6 +60,7 @@ If my code did help you, would you please give me a Star 🌟? It will courage m
   - [066 Plus One](/LeetCode/066-Plus-One)
   - [067 Add Binary](/LeetCode/067-Add-Binary)
   - [069 Sqrt(x)](/LeetCode/069-Sqrt(x))
+  - [070 Climbing Stairs](/LeetCode/070-Climbing-Stairs)
 
 ## Why Swift X?
 
