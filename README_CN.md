@@ -60,6 +60,7 @@
   - [069 Sqrt(x)](/LeetCode/069-Sqrt(x))
   - [070 Climbing Stairs](/LeetCode/070-Climbing-Stairs)
   - [083 Remove Duplicates from Sorted List](/LeetCode/083-Remove-Duplicates-from-Sorted-List)
+  - [088 Merge Sorted Array](/LeetCode/088-Merge-Sorted-Array)
 
 ## 何为 Swift X？
 
