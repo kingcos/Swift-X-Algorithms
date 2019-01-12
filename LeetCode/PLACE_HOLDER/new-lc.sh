@@ -46,7 +46,6 @@ if [ -n "$*" ] && [ -n "$2" ]; then
         cp -r $readme_original_path $readme_new_path
 
         # 3. Update problem's info in README.md
-        uname=`uname`
         if [ `uname` = "Linux" ]; then
             sed -i "s/NO. PROBLEM_NAME/$display_name/" "$readme_new_path"
         elif [ `uname` = "Darwin" ]; then
@@ -61,7 +60,7 @@ if [ -n "$*" ] && [ -n "$2" ]; then
     fi
     # 4. Print new folder path for repo's README
     echo ""
-    echo "💻 Folder name: $display_name"
+    echo "💻 Display name: $display_name"
     echo "📁 Folder name: $folder_name"
 else
     echo "⚠️  ERROR: Please input problem's standard name from LeetCode website (eg. 1. Two Sum). ⚠️"
