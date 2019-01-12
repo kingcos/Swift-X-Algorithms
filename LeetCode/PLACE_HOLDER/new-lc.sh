@@ -51,7 +51,7 @@ if [ -n "$*" ] && [ -n "$2" ]; then
         elif [ `uname` = "Darwin" ]; then
             sed -i "" "s/NO. PROBLEM_NAME/$display_name/" "$readme_new_path"
         else
-            echo "⚠️ ERROR: Your system is not supported."
+            echo "⚠️  ERROR: Your system is not supported."
         fi
 
         echo "🎉 DONE!"
