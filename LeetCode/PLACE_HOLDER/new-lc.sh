@@ -62,6 +62,7 @@ if [ -n "$*" ] && [ -n "$2" ]; then
     echo ""
     echo "💻 Display name: $display_name"
     echo "📁 Folder name: $folder_name"
+    echo "- [$display_name](/LeetCode/$folder_name)"
 else
     echo "⚠️  ERROR: Please input problem's standard name from LeetCode website (eg. 1. Two Sum). ⚠️"
 fi
