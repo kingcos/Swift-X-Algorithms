@@ -65,6 +65,7 @@ If my code did help you, would you please give me a Star 🌟? It will courage m
   - [088 Merge Sorted Array](/LeetCode/088-Merge-Sorted-Array)
   - [100 Same Tree](/LeetCode/100-Same-Tree)
   - [101 Symmetric Tree](/LeetCode/101-Symmetric-Tree)
+  - [104 Maximum Depth of Binary Tree](/LeetCode/104-Maximum-Depth-of-Binary-Tree)
 
 ## Why Swift X?
 
