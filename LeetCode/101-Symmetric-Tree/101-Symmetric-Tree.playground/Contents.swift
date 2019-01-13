@@ -25,6 +25,7 @@ public class TreeNode {
 }
 
 class Solution {
+    // 20 ms
     func isSymmetric(_ root: TreeNode?) -> Bool {
         func isSymmetricNodes(_ a: TreeNode?, _ b: TreeNode?) -> Bool {
             if a == nil && b == nil { return true }
