@@ -4,6 +4,8 @@ Algorithms &amp; Data Structures implemented in Swift X.
 
 [中文版 README](README_CN.md)
 
+> *This branch is developed under Swift 3.x, but its content is NOT completed.*
+
 ## Preface
 
 Hello!
