@@ -1,15 +1,17 @@
 import UIKit
 
 class Solution {
-    // 164 ms
+    // 156 ms
     func pivotIndex(_ nums: [Int]) -> Int {
+        guard nums.count > 2 else { return -1 }
+        
         let sum = nums.reduce(0, +)
-        var leftSum = 0.0
+        var leftSum = 0
         for t in nums.enumerated() {
-            if leftSum == Double(sum - t.element) / 2.0 {
+            if leftSum * 2 == sum - t.element {
                 return t.offset
             }
-            leftSum += Double(t.element)
+            leftSum += t.element
         }
         
         return -1
