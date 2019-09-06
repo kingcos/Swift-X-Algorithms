@@ -1,6 +1,6 @@
 import UIKit
 
-class Solution {
+class Solution_1 {
     // 12 ms
     func plusOne(_ digits: [Int]) -> [Int] {
         guard let last = digits.last else { fatalError("digits is empty.") }
@@ -26,6 +26,29 @@ class Solution {
         } else {
             digits[digits.count-1] += 1
         }
+        return digits
+    }
+}
+
+class Solution_2 {
+    // 8 ms
+    func plusOne(_ digits: [Int]) -> [Int] {
+        guard !digits.isEmpty else { return [] }
+        
+        var digits = digits
+        
+        digits[digits.count - 1] += 1
+        for t in digits.enumerated().reversed() {
+            if digits[t.offset] == 10 {
+                digits[t.offset] = 0
+                if t.offset == 0 {
+                    digits.insert(1, at: 0)
+                } else {
+                    digits[t.offset - 1] += 1
+                }
+            }
+        }
+        
         return digits
     }
 }
