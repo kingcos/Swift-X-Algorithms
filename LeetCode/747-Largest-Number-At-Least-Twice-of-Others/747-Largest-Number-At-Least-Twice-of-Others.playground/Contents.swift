@@ -1,6 +1,7 @@
 import UIKit
 
 class Solution {
+    // 16 ms
     func dominantIndex(_ nums: [Int]) -> Int {
         guard !nums.isEmpty else { return -1 }
         
@@ -21,5 +22,3 @@ class Solution {
         return  maxIndex
     }
 }
-
-print(Solution().dominantIndex([1,0]))
