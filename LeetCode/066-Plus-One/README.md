@@ -9,8 +9,6 @@
 #### Swift
 
 ```Swift
-import UIKit
-
 class Solution_1 {
     // 12 ms
     func plusOne(_ digits: [Int]) -> [Int] {
