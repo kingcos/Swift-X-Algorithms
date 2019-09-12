@@ -1,68 +1,36 @@
 import UIKit
 
 class Solution {
-//    func l2r(_ line: [Int]) -> [Int] {
-//
-//    }
-//
-//    func t2b() {
-//
-//    }
-//
-//    func r2l() {
-//
-//    }
-//
-//    func b2t() {
-//
-//    }
-    
-    private func externalElements(_ matrix: [[Int]]) -> [Int] {
-        guard !matrix.isEmpty || !matrix[0].isEmpty else { return [] }
+    // 4 ms
+    func externalElements(_ matrix: [[Int]], _ startX: Int, _ startY: Int, _ m: Int, _ n: Int) -> [Int] {
+        guard !matrix.isEmpty else { return [] }
+        guard !matrix[0].isEmpty else { return [] }
+        guard startX >= 0 && startY >= 0 && m > 0 && n > 0 else {
+            return []
+        }
         
-        let m = matrix[0].count
-        let n = matrix.count
-        
-        var result = matrix[0][0..<m]
+        var result = matrix[startX][startY..<m+startY]
         
         if n > 1 {
-            print(m-1)
-            result.append(contentsOf: matrix[m-1][1..<n-1])
+            result.append(contentsOf: (startX+1..<n+startX).map { matrix[$0][m+startY-1] })
         }
-        print("----")
-        print(result)
-        print("----")
-
-//        if m > 2 {
-//            result.append(contentsOf: matrix[n-1][1..<m-1].reversed())
-//        }
-//
-
-//        if n > 1 {
-//            print(matrix[1..<n-1][0].reversed())
-//            result.append(contentsOf: matrix[1..<n-1][0].reversed())
-//        }
-//
-//        print(result)
         
-
+        if m > 1 && n > 1 {
+            result.append(contentsOf: (startY+1..<m+startY-1).reversed().map { matrix[n+startX-1][$0] })
+        }
+        
+        if m > 1 {
+            result.append(contentsOf: (startX+1..<n+startX).reversed().map { matrix[$0][startY] })
+        }
+        
+        result.append(contentsOf: externalElements(matrix, startX+1, startY+1, m-2, n-2))
+        
         return [Int](result)
     }
     
     func spiralOrder(_ matrix: [[Int]]) -> [Int] {
         guard !matrix.isEmpty else { return [] }
         guard !matrix[0].isEmpty else { return [] }
-        
-        let m = matrix.count
-        let n = matrix[0].count
-        
-        return externalElements(matrix)
+        return externalElements(matrix, 0, 0, matrix[0].count, matrix.count)
     }
 }
-
-print(Solution().spiralOrder([
-    [ 1, 2, 3 ],
-    [ 4, 5, 6 ],
-    [ 7, 8, 9 ]
-    ])
-)

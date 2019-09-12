@@ -8,7 +8,7 @@
 
 #### Swift
 
-```Swift
+```swift
 ```
 
 #### Go
