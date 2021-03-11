@@ -31,11 +31,15 @@ if [ -n "$*" ] && [ -n "$2" ]; then
     playground_new_path=$new_path/$folder_name.playground
     readme_original_path=$main_path/PLACE_HOLDER/README.md
     readme_new_path=$new_path/README.md
+    xcuserdata_path=$playground_new_path/xcuserdata
+    xcschememanagement_path=$xcuserdata_path/kingcos.xcuserdatad/xcschemes/xcschememanagement.plist
 
     # echo $playground_original_path
     # echo $playground_new_path
     # echo $readme_original_path
     # echo $readme_new_path
+    # echo $xcuserdata_path
+    # echo $xcschememanagement_path
 
     if [ ! -x "$new_path" ] && [ ! -x "$playground_new_path" ] && [ ! -x "$readme_new_path" ]; then
         # 1. Create new folder
@@ -53,6 +57,18 @@ if [ -n "$*" ] && [ -n "$2" ]; then
         else
             echo "⚠️  ERROR: Your system is not supported."
         fi
+
+        # 4. Update xcschememanagement content
+        # if [ `uname` = "Linux" ]; then
+        #     sed -i "s/NO.-PROBLEM_NAME/$folder_name/" "$xcschememanagement_path"
+        # elif [ `uname` = "Darwin" ]; then
+        #     sed -i "" "s/NO.-PROBLEM_NAME/$folder_name/" "$xcschememanagement_path"
+        # else
+        #     echo "⚠️  ERROR: Your system is not supported."
+        # fi
+
+        # 5. Removed xcuserdata
+        # rm -rf xcuserdata_path
 
         echo "🎉 DONE!"
     else
