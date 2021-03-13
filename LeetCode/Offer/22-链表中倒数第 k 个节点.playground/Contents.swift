@@ -27,19 +27,19 @@ class Solution_1 {
         assert(k > 0, "k is illegal.")
         
         var head = head
-        var stack = [ListNode]()
+        var queue = [ListNode]()
         
         while head != nil {
-            stack.append(head!)
-            if stack.count > k {
-                stack.remove(at: 0)
+            queue.append(head!)
+            if queue.count > k {
+                queue.remove(at: 0)
             }
             head = head?.next
         }
         
-        assert(k == stack.count, "k is out of bounds.")
+        assert(k == queue.count, "k is out of bounds.")
         
-        return stack.first
+        return queue.first
     }
 }
 
