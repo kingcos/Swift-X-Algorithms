@@ -54,7 +54,6 @@ class Solution_3 {
     // 1 - 28 ms, 17.2 MB
     // 2 - 28 ms, 14 MB
     func reversePrint(_ head: ListNode?) -> [Int] {
-        
         var head = reverseList_2(head)
         var arr = [Int]()
         
