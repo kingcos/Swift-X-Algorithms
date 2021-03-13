@@ -34,7 +34,6 @@ class Solution_1 {
         while head != nil {
             let tmp = head?.next
             
-            head?.next = head
             head?.next = newHead
             newHead = head
             
