@@ -61,16 +61,16 @@ func mergeTwoLists_2(l1 *ListNode, l2 *ListNode) *ListNode {
 }
 
 func main() {
-	l1 := ListNode{1, nil}
+	l1 := &ListNode{1, nil}
 	l1.Next = &ListNode{2, nil}
 	l1.Next.Next = &ListNode{3, nil}
 
-	l2 := ListNode{1, nil}
+	l2 := &ListNode{1, nil}
 	l2.Next = &ListNode{2, nil}
 	l2.Next.Next = &ListNode{3, nil}
 
-	// l := mergeTwoLists_1(&l1, &l2)
-	l := mergeTwoLists_2(&l1, &l2)
+	// l := mergeTwoLists_1(l1, l2)
+	l := mergeTwoLists_2(l1, l2)
 	for l != nil {
 		fmt.Printf("%d, ", l.Val)
 		l = l.Next

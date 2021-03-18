@@ -56,11 +56,11 @@ func printList(head *ListNode) {
 }
 
 func main() {
-	head := ListNode{1, nil}
+	head := &ListNode{1, nil}
 	head.Next = &ListNode{2, nil}
 	head.Next.Next = &ListNode{3, nil}
 	head.Next.Next.Next = &ListNode{4, nil}
 
-	printList(&head)
-	printList(reverseList_2(&head))
+	printList(head)
+	printList(reverseList_2(head))
 }

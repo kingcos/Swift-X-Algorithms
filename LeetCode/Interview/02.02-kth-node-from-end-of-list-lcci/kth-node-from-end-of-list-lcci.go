@@ -39,9 +39,9 @@ func kthToLast(head *ListNode, k int) int {
 }
 
 func main() {
-	head := ListNode{1, nil}
+	head := &ListNode{1, nil}
 	head.Next = &ListNode{2, nil}
 	head.Next.Next = &ListNode{3, nil}
 
-	fmt.Println(kthToLast(&head, 2))
+	fmt.Println(kthToLast(head, 2))
 }
