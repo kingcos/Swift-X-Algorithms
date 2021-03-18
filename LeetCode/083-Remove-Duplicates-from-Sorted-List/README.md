@@ -10,26 +10,21 @@
 
 ```Swift
 class Solution {
-    // 40 ms
+    // 32 ms, 13.7 MB
     func deleteDuplicates(_ head: ListNode?) -> ListNode? {
         var head = head
-        let node = ListNode(0)
-        node.next = head
         
-        while head?.next != nil {
-            var temp = head
-            temp = temp?.next
-            if temp?.val == head?.val {
-                if temp?.next != nil {
-                    head?.next = temp?.next
-                } else {
-                    head?.next = nil
-                }
+        let headPtr = head
+        
+        while head != nil && head?.next != nil {
+            if head!.val == head!.next!.val {
+                head?.next = head?.next?.next
             } else {
                 head = head?.next
             }
         }
-        return node.next
+        
+        return headPtr
     }
 }
 ```
@@ -37,6 +32,19 @@ class Solution {
 #### Go
 
 ```go
+func deleteDuplicates(head *ListNode) *ListNode {
+    newHead := head
+    
+    for head != nil && head.Next != nil {
+        if head.Next.Val == head.Val {
+            head.Next = head.Next.Next
+        } else {
+            head = head.Next
+        }
+    }
+
+    return newHead
+}
 ```
 
 #### Python
