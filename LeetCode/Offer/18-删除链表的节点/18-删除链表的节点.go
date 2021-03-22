@@ -16,7 +16,7 @@ type ListNode struct {
 	Next *ListNode
 }
 
-func deleteNode(head *ListNode, val int) *ListNode {
+func deleteNode_1(head *ListNode, val int) *ListNode {
 	if head.Val == val {
 		return head.Next
 	}
@@ -26,6 +26,8 @@ func deleteNode(head *ListNode, val int) *ListNode {
 	for head.Next != nil {
 		if head.Next.Val == val {
 			head.Next = head.Next.Next
+
+			return newHead
 		} else {
 			head = head.Next
 		}
@@ -33,6 +35,22 @@ func deleteNode(head *ListNode, val int) *ListNode {
 	}
 
 	return newHead
+}
+
+func deleteNode_2(head *ListNode, val int) *ListNode {
+	newHead := &ListNode{0, head}
+	tmpHead := newHead
+
+	for newHead.Next != nil {
+		if newHead.Next.Val == val {
+			newHead.Next = newHead.Next.Next
+
+			return tmpHead.Next
+		}
+		newHead = newHead.Next
+	}
+
+	return tmpHead.Next
 }
 
 func printList(head *ListNode) {
@@ -47,8 +65,8 @@ func main() {
 	l1 := &ListNode{4, nil}
 	l1.Next = &ListNode{1, nil}
 	l1.Next.Next = &ListNode{8, nil}
-	l1.Next.Next.Next = &ListNode{4, nil}
-	l1.Next.Next.Next.Next = &ListNode{5, nil}
+	l1.Next.Next.Next = &ListNode{5, nil}
 
-	printList(deleteNode(l1, 1))
+	printList(deleteNode_1(l1, 1))
+	printList(deleteNode_2(l1, 4))
 }

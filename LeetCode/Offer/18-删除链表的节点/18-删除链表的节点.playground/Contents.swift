@@ -22,7 +22,7 @@ public class ListNode {
 }
 
 class Solution {
-    // 28 ms, 13.8 MB
+    // 24 ms, 13.7 MB
     func deleteNode(_ head: ListNode?, _ val: Int) -> ListNode? {
         if head == nil { return nil }
         
@@ -36,6 +36,8 @@ class Solution {
         while head?.next != nil {
             if head!.next!.val == val {
                 head?.next = head?.next?.next
+
+                return newHead
             } else {
                 head = head?.next
             }
